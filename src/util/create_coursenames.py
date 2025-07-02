@@ -5,6 +5,7 @@ Script to itereate through a json of course information to create a dictionary t
 course names to its shorthand, eg. Computer Science : CS
 '''
 
+# course_crns.json is raw course data
 with open('course_crns.json', 'r', encoding='utf-8') as f:
     course_list = json.load(f)
 

@@ -25,7 +25,6 @@ def get_dates(data):
             class_days.append(d)
     return class_days
 
-
 def get_instructor(data):
     for d in data:
         if d["primaryIndicator"]:
@@ -55,5 +54,3 @@ def clean_reqs(data):
         "prereqs" : None
     }
     return cleaned_data
-
-
